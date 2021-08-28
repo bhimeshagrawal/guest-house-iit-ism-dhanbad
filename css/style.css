@@ -23,6 +23,15 @@ overflow-x:hidden; }
     overflow-x: hidden;
     position: static;
   }
+ .container-carousel{
+  width: 57%;
+  height: 2%;
+  margin: 40px 21%;
+}
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+  width: 100%;
+}
+
 a {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
@@ -113,6 +122,9 @@ h1, h2, h3, h4, h5,
       .ftco-navbar-light .navbar-nav > .nav-item > .nav-link:hover{
         color: #bb4052;
       }
+     .nav-link2:hover{
+       color:#bb4052;
+     }
   .ftco-navbar-light .navbar-nav > .nav-item.ftco-seperator {
     position: relative;
     margin-left: 20px;
@@ -144,6 +156,9 @@ h1, h2, h3, h4, h5,
     border-color: 130px;
     background: #943442; }
   .ftco-navbar-light .navbar-nav > .nav-item.active > a {
+    color: #fff;
+    position: relative; }
+      .ftco-navbar-light .navbar-nav > .nav-item.active > a {
     color: #fff;
     position: relative; }
     .ftco-navbar-light .navbar-nav > .nav-item.active > a:before {
