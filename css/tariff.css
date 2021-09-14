@@ -167,14 +167,13 @@
 
 /* tariff section  */
 .tariff-section{
-    background-color: #FFCAC2;
     padding: 2rem 0px;
 }
 
 
 #table-section{
 
-        background-color: #FFE6E6;
+        /* background-color: #FFE6E6; */
         box-shadow: 0px 4px 4px rgb(222 17 17 / 40%);
     
 }

@@ -22,61 +22,86 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/tariff.css">
+    <style>
+       .img-fluid {
+      box-shadow: 10px -20px #bb4052;
+    }
+    .block-30.block-30-sm, .block-30.block-30-sm .row {
+    min-height: 0px;
+    height: 0vh; }
+    .block-30 {
+    background-color: #bb4052;
+    padding: 0;
+    position: relative;
+}
+nav {
+  box-shadow: 0 2px 4px 0 rgba(116, 107, 107, 0.2);
+}
+.tariff-section{
+  margin-top: 150px;
+}
+@media screen and ( max-width: 770px){
+  .tariff-section{
+    margin-top: 50px;
+  }
+  .navbar-brand{
+    max-width: 100px;
+  }
+}
+    </style>
 </head>
 <body>
 
-    <!------nav------>
-    <div class="secondary-nav fixed-top">
-        <div class="d-flex justify-content-around flex-wrap">
-            <a href="#" class="nav-item-link">Facilities</a>
-            <a href="tariff.html" class="nav-item-link">Tariff</a>
-            <a href="people.html" class="nav-item-link">People</a>
-            <a href="guesthouses.html" class="nav-item-link">GuestHouse</a>
-            <a href="reservationpolicy.html" class="nav-item-link">Reservation Policy</a>
-        </div>
+     <!------nav------>
+   <div class="secondary-nav fixed-top">
+    <div class="d-flex justify-content-around flex-wrap">
+        <a href="tariff.html" class="nav-item-link">Tariff</a>
+        <a href="people.html" class="nav-item-link">People</a>
+        <a href="location.html" class="nav-item-link">Location</a>
+        <a href="reservationpolicy.html" class="nav-item-link">Reservation Policy</a>
     </div>
-    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
-        <div class="container">
-            <img src="images/iitismlogo.png" class="logoimg">
-            <a class="navbar-brand" href="index.html">IIT (ISM), DHANBAD</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
-                aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="oi oi-menu"></span>
-            </button>
+</div>
+  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light bg-nav-col sticky" id="ftco-navbar" style="background-color: #bb4052;">
+    <div class="container">
+      <img src="images/iitismlogo.png" class="logoimg">
+      <a class="navbar-brand" href="index.html" style="color:#000;"  onMouseOver="this.style.color='#bb4052'"
+   onMouseOut="this.style.color='#000'">IIT (ISM), DHANBAD</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
+        aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation" style="color:#000;">
+        <span class="oi oi-menu"></span>
+      </button>
 
-            <div class="collapse navbar-collapse" id="ftco-nav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">services</a></li>
-                    <li class="nav-item"><a href="gallery.html" class="nav-link">Gallery</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">About</a></li>
-                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <!-- END nav -->
-    <!------nav img----->
-    <div class="block-31" style="position: relative;">
-        <div class="block-30 block-30-sm item" style="background-image: url('images/heritagebuildingedit.jpg');">
-            <div class="container">
-                <div class="row align-items-center justify-content-center text-center">
-                    <div class="col-md-7">
-                        <h2 class="heading mb-5">GUESTHOUSE</h2>
-                    </div>
-                </div>
-            </div>
-        </div>
+      <div class="collapse navbar-collapse" id="ftco-nav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active"><a href="index.html" class="nav-link" style="color:#000;"  onMouseOver="this.style.color='#bb4052'"
+   onMouseOut="this.style.color='#000'">Home</a></li>
+          <li class="nav-item"><a href="guesthouses.html" class="nav-link" style="color:#000;"  onMouseOver="this.style.color='#bb4052'"
+   onMouseOut="this.style.color='#000'">Guesthouses</a></li>
+          <li class="nav-item"><a href="gallery.html" class="nav-link" style="color:#000;"  onMouseOver="this.style.color='#bb4052'"
+   onMouseOut="this.style.color='#000'">Gallery</a></li>
+          <!-- <li class="nav-item"><a href="#" class="nav-link" style="color:#000;"  onMouseOver="this.style.color='#bb4052'"
+   onMouseOut="this.style.color='#000'">About us</a></li> -->
+          <li class="nav-item"><a href="contact.html" class="nav-link" style="color:#000;"  onMouseOver="this.style.color='#bb4052'"
+   onMouseOut="this.style.color='#000'">Contact</a></li>
+        </ul>
+      </div>
     </div>
-    <!--------end nav img------->
+  </nav>
+  <!-- END nav -->
+<!------nav img----->
+<div class="block-31" style="position: relative;">
+  <div class="block-30 block-30-sm item">
+ </div>
+</div>
+<!--------end nav img------->
+<!----------content SAH------------->
     <!----------horizontal marquee-------->
-    <div class="marqueBox blink-bg">
+    <!-- <div class="marqueBox blink-bg">
         <marquee width="100%" behavior="scroll" direction="right" scrollamount="10" onmouseover="this.stop();"
             onmouseout="this.start();" style="color: white;">
             <a href="#">Book your guesthouse now</a>
         </marquee>
-    </div>
+    </div> -->
 
 
 
@@ -147,7 +172,7 @@
             <!-- end links -->
     
             <!-- links -->
-            <div class="mx-auto col-sm-4">
+            <!-- <div class="mx-auto col-sm-4">
              <p class="nav-link text-left"><u>LINKS</u></p>
               <a href="index.html" class="nav-link text-left">Home</a>
               <a href="services.html" class="nav-link text-left">services</a>
@@ -155,7 +180,7 @@
               <a href="blog.html" class="nav-link text-left">Blog</a>
               <a href="about.html" class="nav-link text-left">About</a>
               <a href="contact.html" class="nav-link text-left">Contact</a>
-            </div>
+            </div> -->
             <!-- end links-->
     
             <!-- contact -->

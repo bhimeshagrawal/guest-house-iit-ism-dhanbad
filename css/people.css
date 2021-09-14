@@ -166,7 +166,7 @@
 
   /* people-section  */
   .people-section {
-    background-color: #EFB7B7;
+    /* background-color: #EFB7B7; */
     padding: 2rem 0rem;
 }
 .heading {
@@ -175,7 +175,7 @@
   align-items: center;
 }
 .heading h2{
-  color: #f10a2d;
+  /* color: #f10a2d; */
   font-size: 2rem;
   font-weight: 600;
 }
@@ -207,7 +207,7 @@
 }
 
 .more-btn {
-  background-color: #dc354599;
+  background-color: #641B26 ;
   display: flex;
   justify-content: center;
   padding: 8px;

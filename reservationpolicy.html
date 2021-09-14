@@ -22,55 +22,78 @@
   <link rel="stylesheet" href="css/style.css">
 
   <!-------------------------css bootstrap cdn------------------------>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-<!------------------jquery/js bootstrap cdn---------------------->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
- 
+  <!------------------jquery/js bootstrap cdn---------------------->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
   <style>
     .img-fluid {
       box-shadow: 10px -20px #bb4052;
     }
-    .block-30.block-30-sm, .block-30.block-30-sm .row {
-    min-height: 0px;
-    height: 0vh; }
+
+    .block-30.block-30-sm,
+    .block-30.block-30-sm .row {
+      min-height: 0px;
+      height: 0vh;
+    }
+
     .block-30 {
-    background-color: #bb4052;
-    padding: 0;
-    position: relative;
-}
-nav {
-  box-shadow: 0 2px 4px 0 rgba(116, 107, 107, 0.2);
-}
-.carousel-inner>.carousel-item>img {
-        display: block;
-        height: auto;
-        max-width: 100%;
-        line-height: 1;
-        margin:auto;
-        width: 100%;
-        }
+      background-color: #bb4052;
+      padding: 0;
+      position: relative;
+    }
 
+    nav {
+      box-shadow: 0 2px 4px 0 rgba(116, 107, 107, 0.2);
+    }
 
+    .carousel-inner>.carousel-item>img {
+      display: block;
+      height: auto;
+      max-width: 100%;
+      line-height: 1;
+      margin: auto;
+      width: 100%;
+    }
+
+    @media screen and (max-width: 770px) {
+      .tariff-section {
+        margin-top: 50px;
+      }
+
+      .navbar-brand {
+        max-width: 100px;
+      }
+    }
   </style>
 </head>
+
 <body>
-   <!------nav------>
-   <div class="secondary-nav fixed-top">
+  <!------nav------>
+  <div class="secondary-nav fixed-top">
     <div class="d-flex justify-content-around flex-wrap">
-        <a href="tariff.html" class="nav-item-link">Tariff</a>
-        <a href="people.html" class="nav-item-link">People</a>
-        <a href="location.html" class="nav-item-link">Location</a>
-        <a href="reservationpolicy.html" class="nav-item-link">Reservation Policy</a>
+      <a href="tariff.html" class="nav-item-link">Tariff</a>
+      <a href="people.html" class="nav-item-link">People</a>
+      <a href="location.html" class="nav-item-link">Location</a>
+      <a href="reservationpolicy.html" class="nav-item-link">Reservation Policy</a>
     </div>
-</div>
-  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light bg-nav-col sticky" id="ftco-navbar" style="background-color: #bb4052;">
+  </div>
+  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light bg-nav-col sticky" id="ftco-navbar"
+    style="background-color: #bb4052;">
     <div class="container">
       <img src="images/iitismlogo.png" class="logoimg">
-      <a class="navbar-brand" href="index.html" style="color:#000;"  onMouseOver="this.style.color='#bb4052'"
-   onMouseOut="this.style.color='#000'">IIT (ISM), DHANBAD</a>
+      <a class="navbar-brand" style="width: 200px;" href="index.html" style="color:rgb(211, 43, 43);"
+        onMouseOver="this.style.color='#bb4052'" onMouseOut="this.style.color='black'">IIT (ISM), DHANBAD</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
         aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation" style="color:#000;">
         <span class="oi oi-menu"></span>
@@ -78,164 +101,277 @@ nav {
 
       <div class="collapse navbar-collapse" id="ftco-nav">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item active"><a href="index.html" class="nav-link" style="color:#000;"  onMouseOver="this.style.color='#bb4052'"
-   onMouseOut="this.style.color='#000'">Home</a></li>
-          <li class="nav-item"><a href="guesthouses.html" class="nav-link" style="color:#000;"  onMouseOver="this.style.color='#bb4052'"
-   onMouseOut="this.style.color='#000'">Guesthouses</a></li>
-          <li class="nav-item"><a href="gallery.html" class="nav-link" style="color:#000;"  onMouseOver="this.style.color='#bb4052'"
-   onMouseOut="this.style.color='#000'">Gallery</a></li>
-          <li class="nav-item"><a href="#" class="nav-link" style="color:#000;"  onMouseOver="this.style.color='#bb4052'"
-   onMouseOut="this.style.color='#000'">About us</a></li>
-          <li class="nav-item"><a href="contact.html" class="nav-link" style="color:#000;"  onMouseOver="this.style.color='#bb4052'"
-   onMouseOut="this.style.color='#000'">Contact</a></li>
+          <li class="nav-item active"><a href="index.html" class="nav-link" style="color:#000;"
+              onMouseOver="this.style.color='#bb4052'" onMouseOut="this.style.color='#000'">Home</a></li>
+          <li class="nav-item"><a href="guesthouses.html" class="nav-link" style="color:#000;"
+              onMouseOver="this.style.color='#bb4052'" onMouseOut="this.style.color='#000'">Guesthouses</a></li>
+          <li class="nav-item"><a href="gallery.html" class="nav-link" style="color:#000;"
+              onMouseOver="this.style.color='#bb4052'" onMouseOut="this.style.color='#000'">Gallery</a></li>
+          <!-- <li class="nav-item"><a href="gallery.html" class="nav-link" style="color:#000;"  onMouseOver="this.style.color='#bb4052'"
+   onMouseOut="this.style.color='#000'">About us</a></li> -->
+          <li class="nav-item"><a href="contact.html" class="nav-link" style="color:#000;"
+              onMouseOver="this.style.color='#bb4052'" onMouseOut="this.style.color='#000'">Contact</a></li>
         </ul>
       </div>
     </div>
   </nav>
   <!-- END nav -->
-<!------nav img----->
-<div class="block-31" style="position: relative;">
+  <!------nav img----->
+  <div class="block-31" style="position: relative;">
     <div class="block-30 block-30-sm item">
-   </div>
- </div>
-<!--------end nav img------->
-<!----------content SAH------------->
-<div class="container">
-        <br>
-        <h2 class="display-4 mb-3">Reservation</h2>
-        <hr class="style-one">
-        <p><b>SAH-MIS Link</b>
-            <p>Requests for booking accommodation at SAH/EDC should be invariably submitted online, well in advance with complete details.
-            The accommodation can be requested/booked for a maximum period of 7 days, subject to availability. 
-            The applicant is responsible for the correctness/genuineness of each of the guest’s details.
-            
-            The management may at its discretion, cancel a booking, offer a shared accommodation or offer an alternate accommodation as per availability, without citing any reason.
-            Any change in the arrival/departure of guests needs to be brought to the notice of SAH/EDC staff immediately by email by mentioning the booking request number.
-            Verbal/written request for change/extension of dates for accommodation (prefix/suffix) will not be entertained and the same should be separately applied online. Based on the room availability and/or at management’s discretion a decision will be taken and intimated online.
-            Photo ID proof of the guest mentioned in the online application must be produced at the reception before Check-in. The photo ID proofs all the guests are mandatory, except the Distinguished Guests invited by the Director or on behalf of the Director, IIT(ISM),Dhanbad, BOG’s members
-            Payment towards the Guest House accommodation charges will be accepted only through POS machine (by card swiping) and the transaction charges (if any) incurred towards same will be borne by the guest.
-            Accommodation and food charges are billed separately and are to be separately settled as per rules.
-            </p></p>
-            <br>
-        <h2 class="display-4 mb-3">Booking Procedure</h2>
-        <hr class="style-one">
-        <p><ol><li> Requisitions for Suite rooms are to be approved by the Director/Deputy Director and other rooms are to be approved by Dean (Administration)/Assoc. Dean (Administration). However, requisitions should be submitted at office only.</li>
-        <li>The booking are purely provisional and subject to availability. 
-        </li>
-        <li> Booking Request for Conference, Seminars, Workshops, etc. can be done at least 6 months in advance with prior approval of the competent authority.</li>
-        <li>Priority will be given to Institute guests/short courses/ EDP/ PDP/Seminar/ conference/ workshop visitors coming for academic activities. All bills for Conference, Seminars, Workshops, etc need to be settled within 3 months from the completion of the event.
-        </li>
-        <li> Personal booking will be made on the basis of availability & are liable to be cancelled during exigency. 5. Students may be allotted to accommodation in EDC for their parents/spouse if available. Students should get their requisition forms forwarded by DSW.</li>
-        <li>No telephonic Bookings/ Cancellations will be entertained. Official bookings will be entertained on first come first serve basis.
-        </li>
-        <li>Bookings will be accepted in advance at least 24 hrs prior to the arrival of Guest</li>
-        <li>Guests coming for personal visits will be allowed to stay up to maximum of 3 days only. Approval for the extended stay has to be obtained beforehand </li>
-        <li>The students may also book accommodation in EDC/SAH for their parents/Guardian/Spouse only. Students should get their requisition forms forwarded by DSW.</li>
-        <li>Booking request from Govt. Offices/ Local Administration need Billing details and mode of payment and the bills need to be settled within 15 days from the receipt of the bills.</li>
-        <li>No visitors are allowed to the guest rooms without informing the reception.</li>
-        <li><b>Check-in, Check-Out: 24 Hrs Check-in Check-out facility.</b></li>
-        <li>Approval for the extended stay has to be obtained beforehand.</li>
-        <li>In order to keep bills ready & minimize inconvenience at the time of check-out, the front office may be keep informed about the exact departure time well in advance.</li>
-        <li>The Guest is requested to verify/certify the final bill & pay all the dues wherever applicable before departure. Charges are to be paid preferably POS/Online, however also may be paid by cash (occasionally) at the EDC of IIT (ISM), Dhanbad
-        </li>
-        <li>In case of in</li>
-        <li><b>Responsibilities of Indenter/ forwarding official </b>: All the facilities in EDC are preferably for official purposes only. The indenters are advised to book rooms for known visitors under personal category. By filling up the requisition form for allotment of EDC facilities, the indenter/ forwarding official/ visitor shall be abide by all the terms & conditions and take personal responsibility for the genuineness of the visitor.
-        </li>
-        <li><b> Guest Specific Information :</b>
-        <ul><li>Meals can be booked at the dining hall: (Lunch by 9:00 hrs, Dinner by 14:00 hrs.)</li>
-        <li>The Guests are advised to keep their valuables in secured manner. No claims for loss/ damage/theft will be entertained at any stage by the Institute.</li>
-        <li>  Guests are advised to deposit the keys at the reception when they go out of EDC.</li>
-        <li> Consumption of Narcotics/Alcoholic drinks etc. is strictly prohibited in EDC Premises.</li></ul></li>
-        <li><b>  SAH/Executive Development Centre is an Academic Centre and not a Guest House. Hence, in order to maintain Academic sanctity, family accommodation may not be permitted in EDC, particularly when Executive Development Programme is running in EDC. EDC rooms and other facilities are not available for marriage and other social get-together functions.
-        </b></li></ol></p>
-      </div>
+    </div>
+  </div>
+  <!--------end nav img------->
+  <!----------content SAH------------->
   <div class="container">
-      <br>
-      <h2 class="display-4 mb-3">Cancellation Procedure</h2>
-      <hr class="style-one">
-      <p><ol><li>For all group bookings for course, conference, workshops, seminars etc. a written confirmation should be send by the host to the SAH/EDC about the exact number of rooms required, list of participants and the invitees. This confirmation should reach the SAH/EDC office 5 days before the commencement of the event failing which the said booking will be treated as cancelled.
+    <br>
+    <h2 class="display-4 mb-3">Reservation</h2>
+    <hr class="style-one">
+    <p><b>SAH-MIS Link</b>
+    <p>Requests for booking accommodation at SAH/EDC should be invariably submitted online, well in advance with
+      complete details.
+      The accommodation can be requested/booked for a maximum period of 7 days, subject to availability.
+      The applicant is responsible for the correctness/genuineness of each of the guest’s details.
+
+      The management may at its discretion, cancel a booking, offer a shared accommodation or offer an alternate
+      accommodation as per availability, without citing any reason.
+      Any change in the arrival/departure of guests needs to be brought to the notice of SAH/EDC staff immediately by
+      email by mentioning the booking request number.
+      Verbal/written request for change/extension of dates for accommodation (prefix/suffix) will not be entertained and
+      the same should be separately applied online. Based on the room availability and/or at management’s discretion a
+      decision will be taken and intimated online.
+      Photo ID proof of the guest mentioned in the online application must be produced at the reception before Check-in.
+      The photo ID proofs all the guests are mandatory, except the Distinguished Guests invited by the Director or on
+      behalf of the Director, IIT(ISM),Dhanbad, BOG’s members
+      Payment towards the Guest House accommodation charges will be accepted only through POS machine (by card swiping)
+      and the transaction charges (if any) incurred towards same will be borne by the guest.
+      Accommodation and food charges are billed separately and are to be separately settled as per rules.
+    </p>
+    </p>
+    <br>
+    <h2 class="display-4 mb-3">Booking Procedure</h2>
+    <hr class="style-one">
+    <p>
+    <ol>
+      <li> Requisitions for Suite rooms are to be approved by the Director/Deputy Director and other rooms are to be
+        approved by Dean (Administration)/Assoc. Dean (Administration). However, requisitions should be submitted at
+        office only.</li>
+      <li>The booking are purely provisional and subject to availability.
       </li>
-      <li>Cancellation for all confirmed individual booking for SAH/EDC may be done 24 hours before date of arrival in writing (email). </li></ol></p>
+      <li> Booking Request for Conference, Seminars, Workshops, etc. can be done at least 6 months in advance with prior
+        approval of the competent authority.</li>
+      <li>Priority will be given to Institute guests/short courses/ EDP/ PDP/Seminar/ conference/ workshop visitors
+        coming for academic activities. All bills for Conference, Seminars, Workshops, etc need to be settled within 3
+        months from the completion of the event.
+      </li>
+      <li> Personal booking will be made on the basis of availability & are liable to be cancelled during exigency. 5.
+        Students may be allotted to accommodation in EDC for their parents/spouse if available. Students should get
+        their requisition forms forwarded by DSW.</li>
+      <li>No telephonic Bookings/ Cancellations will be entertained. Official bookings will be entertained on first come
+        first serve basis.
+      </li>
+      <li>Bookings will be accepted in advance at least 24 hrs prior to the arrival of Guest</li>
+      <li>Guests coming for personal visits will be allowed to stay up to maximum of 3 days only. Approval for the
+        extended stay has to be obtained beforehand </li>
+      <li>The students may also book accommodation in EDC/SAH for their parents/Guardian/Spouse only. Students should
+        get their requisition forms forwarded by DSW.</li>
+      <li>Booking request from Govt. Offices/ Local Administration need Billing details and mode of payment and the
+        bills need to be settled within 15 days from the receipt of the bills.</li>
+      <li>No visitors are allowed to the guest rooms without informing the reception.</li>
+      <li><b>Check-in, Check-Out: 24 Hrs Check-in Check-out facility.</b></li>
+      <li>Approval for the extended stay has to be obtained beforehand.</li>
+      <li>In order to keep bills ready & minimize inconvenience at the time of check-out, the front office may be keep
+        informed about the exact departure time well in advance.</li>
+      <li>The Guest is requested to verify/certify the final bill & pay all the dues wherever applicable before
+        departure. Charges are to be paid preferably POS/Online, however also may be paid by cash (occasionally) at the
+        EDC of IIT (ISM), Dhanbad
+      </li>
+      <li>In case of in</li>
+      <li><b>Responsibilities of Indenter/ forwarding official </b>: All the facilities in EDC are preferably for
+        official purposes only. The indenters are advised to book rooms for known visitors under personal category. By
+        filling up the requisition form for allotment of EDC facilities, the indenter/ forwarding official/ visitor
+        shall be abide by all the terms & conditions and take personal responsibility for the genuineness of the
+        visitor.
+      </li>
+      <li><b> Guest Specific Information :</b>
+        <ul>
+          <li>Meals can be booked at the dining hall: (Lunch by 9:00 hrs, Dinner by 14:00 hrs.)</li>
+          <li>The Guests are advised to keep their valuables in secured manner. No claims for loss/ damage/theft will be
+            entertained at any stage by the Institute.</li>
+          <li> Guests are advised to deposit the keys at the reception when they go out of EDC.</li>
+          <li> Consumption of Narcotics/Alcoholic drinks etc. is strictly prohibited in EDC Premises.</li>
+        </ul>
+      </li>
+      <li><b> SAH/Executive Development Centre is an Academic Centre and not a Guest House. Hence, in order to maintain
+          Academic sanctity, family accommodation may not be permitted in EDC, particularly when Executive Development
+          Programme is running in EDC. EDC rooms and other facilities are not available for marriage and other social
+          get-together functions.
+        </b></li>
+    </ol>
+    </p>
   </div>
   <div class="container">
-      <br>
-      <h2 class="display-4 mb-3">Visitor’s Category </h2>
-      <hr class="style-one">
-      <table class="table">
-        <thead style="background-color: #bb4052;">
-          <tr>
-            <th scope="col"><ul>Category</th></ul>
-            <th scope="col"><ul>Executive Development Centre (EDC)/Senior Academic Hostle (SAH)</th></ul>
-            <th scope="col"><ul>Revised Tariff*</th></ul>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th scope="row"><ul>A</ul></th>
-            <td><ul><li><b>Institute Guests</b> : BOG Members Senate Member (outsider), Members of Selection committee, all examiners (Ph. D/M. tech Dissertation) Convocation guests, Adjunct Prof., Guest for Institute events e.g. Foundation Day, Candidate(s) coming for seminar/ interview for Faculty selection, Company Person visited for Institute work/Orientation Programme (To be approved by the Director / Dy Director)
-            </li>
-            <li> Others (Approved by the Director)</li></ul></td>
-            <td><b><ul><li>Free Boarding and lodging</li></ul></b></td>
-          </tr>
-          <tr>
-            <th scope="row"><ul>B</ul></th>
-            <td><ul><li>Retired IIT(ISM) Faculty/ Chair Prof /Officers for their official works</li>
-            <li> Relatives/Guest of  Serving Faculty/ Chair Prof /Officers</li></ul></td>
-            <td><ul><li><b>Concession Rate-</b></li>
-                <li><b>Standard Room-</b> Rs. 600/-</li>
-                <li><b>Suite-</b> Rs.950/-</li></td></ul>
-          </tr>
-          <tr>
-            <th scope="row"><ul>C</ul></th>
-            <td><ul><li>Parents/ Guardian/ Spouse of IIT(ISM) Students/JRF/Research scholar,   M. Tech, Exec. Course/ Alumni </li></ul></td>
-            <td><ul><li><b>Official rate-</b></li>
-                <li><b>Standard Room-</b> Rs. 1000/- plus admissible GST</li>
-                <li><b>Suite-</b> Rs.1500/- plus admissible GST</li></td></ul>
-          </tr>
-          <tr>
-            <th scope="row"><ul>D</ul></th>
-            <td><ul><li>External guests visiting to Institute for official purpose</li>
-            <li>participants for Executive Development programme</li>
-            <li>Non Govt. (Approved by the Director/ Dy. Director</li>
-            <li>Faculty/officers of other IITs/Engineering Colleges/Universities</li>
-            <li>Guest from others Educational Institutes/PSU/Govt. Organizations</li>
-            <li>External research scholar(part time Ph.D.) and External PG students</li>
-            <li>Others (Approved by the Director/ Dy. Director)</li></ul></td>
-            <td><ul><li><b>Full rate-</b></li>
-                <li><b>Standard Room-</b> Rs.1200/- plus admissible GST</li>
-                <li><b>Suite-</b> Rs.2000/- plus admissible GST</li></ul></td>
-          </tr>
-          <tr>
-            <th scope="row"><ul>E</ul></th>
-            <td><ul><li>Foreign Guest/ Participants (per day)</li>
-            <li>Chair Professor/Vising Professor  (To be approved by Director)</li>
-            <li>Employees entitled for regular allotment of quarters may be allowed to stay on temporary basis in SAH/EDC, subject to payment of license fee of the quarters of his/her allotted to a proportionate basis</li></ul></td>
-            <td><ul><li><b>For Suite –</b> Rs.3000/- per day plus admissible GST</li>
-                <li><b>Standard Room-</b> Rs.4000/-per month</li>
-                <li><b>Suite-</b> Rs.5000/- Per Month as applicable license fee</li></ul></td>
-          </tr>
-          <table class="table">
-            <thead class="thead-light">
-                <tr>
-                    <th scope="col">*Note- This rate is applicable for a room irrespective of occupation (Single or Double). However, maximum 2 persons excluding for child (below 12 years of age) are permissible in each room/suite.</th>
-                  </tr>
-                </thead>
-            </tbody>          
-        </tbody>
-      </table>
+    <br>
+    <h2 class="display-4 mb-3">Cancellation Procedure</h2>
+    <hr class="style-one">
+    <p>
+    <ol>
+      <li>For all group bookings for course, conference, workshops, seminars etc. a written confirmation should be send
+        by the host to the SAH/EDC about the exact number of rooms required, list of participants and the invitees. This
+        confirmation should reach the SAH/EDC office 5 days before the commencement of the event failing which the said
+        booking will be treated as cancelled.
+      </li>
+      <li>Cancellation for all confirmed individual booking for SAH/EDC may be done 24 hours before date of arrival in
+        writing (email). </li>
+    </ol>
+    </p>
+  </div>
+  <div class="container">
+    <br>
+    <h2 class="display-4 mb-3">Visitor’s Category </h2>
+    <hr class="style-one">
+    <table class="table">
+      <thead style="background-color: #bb4052;">
+        <tr>
+          <th scope="col">
+            <ul>Category
+          </th>
+          </ul>
+          <th scope="col">
+            <ul>Executive Development Centre (EDC)/Senior Academic Hostle (SAH)
+          </th>
+          </ul>
+          <th scope="col">
+            <ul>Revised Tariff*
+          </th>
+          </ul>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">
+            <ul>A</ul>
+          </th>
+          <td>
+            <ul>
+              <li><b>Institute Guests</b> : BOG Members Senate Member (outsider), Members of Selection committee, all
+                examiners (Ph. D/M. tech Dissertation) Convocation guests, Adjunct Prof., Guest for Institute events
+                e.g. Foundation Day, Candidate(s) coming for seminar/ interview for Faculty selection, Company Person
+                visited for Institute work/Orientation Programme (To be approved by the Director / Dy Director)
+              </li>
+              <li> Others (Approved by the Director)</li>
+            </ul>
+          </td>
+          <td><b>
+              <ul>
+                <li>Free Boarding and lodging</li>
+              </ul>
+            </b></td>
+        </tr>
+        <tr>
+          <th scope="row">
+            <ul>B</ul>
+          </th>
+          <td>
+            <ul>
+              <li>Retired IIT(ISM) Faculty/ Chair Prof /Officers for their official works</li>
+              <li> Relatives/Guest of Serving Faculty/ Chair Prof /Officers</li>
+            </ul>
+          </td>
+          <td>
+            <ul>
+              <li><b>Concession Rate-</b></li>
+              <li><b>Standard Room-</b> Rs. 600/-</li>
+              <li><b>Suite-</b> Rs.950/-</li>
+          </td>
+          </ul>
+        </tr>
+        <tr>
+          <th scope="row">
+            <ul>C</ul>
+          </th>
+          <td>
+            <ul>
+              <li>Parents/ Guardian/ Spouse of IIT(ISM) Students/JRF/Research scholar, M. Tech, Exec. Course/ Alumni
+              </li>
+            </ul>
+          </td>
+          <td>
+            <ul>
+              <li><b>Official rate-</b></li>
+              <li><b>Standard Room-</b> Rs. 1000/- plus admissible GST</li>
+              <li><b>Suite-</b> Rs.1500/- plus admissible GST</li>
+          </td>
+          </ul>
+        </tr>
+        <tr>
+          <th scope="row">
+            <ul>D</ul>
+          </th>
+          <td>
+            <ul>
+              <li>External guests visiting to Institute for official purpose</li>
+              <li>participants for Executive Development programme</li>
+              <li>Non Govt. (Approved by the Director/ Dy. Director</li>
+              <li>Faculty/officers of other IITs/Engineering Colleges/Universities</li>
+              <li>Guest from others Educational Institutes/PSU/Govt. Organizations</li>
+              <li>External research scholar(part time Ph.D.) and External PG students</li>
+              <li>Others (Approved by the Director/ Dy. Director)</li>
+            </ul>
+          </td>
+          <td>
+            <ul>
+              <li><b>Full rate-</b></li>
+              <li><b>Standard Room-</b> Rs.1200/- plus admissible GST</li>
+              <li><b>Suite-</b> Rs.2000/- plus admissible GST</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">
+            <ul>E</ul>
+          </th>
+          <td>
+            <ul>
+              <li>Foreign Guest/ Participants (per day)</li>
+              <li>Chair Professor/Vising Professor (To be approved by Director)</li>
+              <li>Employees entitled for regular allotment of quarters may be allowed to stay on temporary basis in
+                SAH/EDC, subject to payment of license fee of the quarters of his/her allotted to a proportionate basis
+              </li>
+            </ul>
+          </td>
+          <td>
+            <ul>
+              <li><b>For Suite –</b> Rs.3000/- per day plus admissible GST</li>
+              <li><b>Standard Room-</b> Rs.4000/-per month</li>
+              <li><b>Suite-</b> Rs.5000/- Per Month as applicable license fee</li>
+            </ul>
+          </td>
+        </tr>
+        <table class="table">
+          <thead class="thead-light">
+            <tr>
+              <th scope="col">*Note- This rate is applicable for a room irrespective of occupation (Single or Double).
+                However, maximum 2 persons excluding for child (below 12 years of age) are permissible in each
+                room/suite.</th>
+            </tr>
+          </thead>
+      </tbody>
+      </tbody>
+    </table>
   </div>
 
-<!---------end content SAH-------->
+  <!---------end content SAH-------->
 
-<!-------footer-->
-<footer class="text-center text-lg-start bg text-muted">
-   <!-- Section: Links  -->
+  <!-------footer-->
+  <footer class="text-center text-lg-start bg text-muted">
+    <!-- Section: Links  -->
     <section>
       <div class="container text-md-start mt-5">
         <!-- Grid row -->
         <div class="row">
           <!-- Grid column -->
-         
+
           <div class="mx-auto col-sm-4">
             <!-- links -->
             <p class="nav-link text-left"><u>LINKS</u></p>
@@ -247,8 +383,8 @@ nav {
             <a href="contact.html" class="nav-link text-left">Contact</a>
           </div>
           <!-- end links -->
-  
-          <!-- links -->
+
+          <!-- links
           <div class="mx-auto col-sm-4">
            <p class="nav-link text-left"><u>LINKS</u></p>
             <a href="index.html" class="nav-link text-left">Home</a>
@@ -257,9 +393,9 @@ nav {
             <a href="blog.html" class="nav-link text-left">Blog</a>
             <a href="about.html" class="nav-link text-left">About</a>
             <a href="contact.html" class="nav-link text-left">Contact</a>
-          </div>
+          </div> -->
           <!-- end links-->
-  
+
           <!-- contact -->
           <div class="col-xl-3 mx-auto col-sm-4">
             <!-- Links -->
@@ -272,7 +408,7 @@ nav {
             <p class="nav-link text-left"><i class="fa fa-phone me-3"></i> + 01 234 567 88</p>
             <p class="nav-link text-left"><i class="fa fa-print me-3"></i> + 01 234 567 89</p>
           </div>
-        
+
           <!--end contact -->
         </div>
       </div>
@@ -284,9 +420,9 @@ nav {
     <!-- Copyright -->
   </footer>
   <!--end Footer -->
-  
 
-<script src="js/jquery.min.js"></script>
+
+  <script src="js/jquery.min.js"></script>
   <script src="js/jquery-migrate-3.0.1.min.js"></script>
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
@@ -301,8 +437,9 @@ nav {
 
   <script src="js/aos.js"></script>
   <script src="js/jquery.animateNumber.min.js"></script>
- <script src="js/main.js"></script>
+  <script src="js/main.js"></script>
 
 
 </body>
+
 </html>
