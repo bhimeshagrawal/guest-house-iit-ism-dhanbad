@@ -34,11 +34,18 @@
     padding: 0;
     position: relative;
 }
+
 nav {
   box-shadow: 0 2px 4px 0 rgba(116, 107, 107, 0.2);
 }
 .tariff-section{
   margin-top: 150px;
+}
+.th{
+  color:white;
+}
+table{
+  /* overflow:scroll; */
 }
 @media screen and ( max-width: 770px){
   .tariff-section{
@@ -73,14 +80,12 @@ nav {
 
       <div class="collapse navbar-collapse" id="ftco-nav">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item active"><a href="index.html" class="nav-link" style="color:#000;"  onMouseOver="this.style.color='#bb4052'"
+          <li class="nav-item"><a href="index.html" class="nav-link" style="color:#000;"  onMouseOver="this.style.color='#bb4052'"
    onMouseOut="this.style.color='#000'">Home</a></li>
           <li class="nav-item"><a href="guesthouses.html" class="nav-link" style="color:#000;"  onMouseOver="this.style.color='#bb4052'"
    onMouseOut="this.style.color='#000'">Guesthouses</a></li>
           <li class="nav-item"><a href="gallery.html" class="nav-link" style="color:#000;"  onMouseOver="this.style.color='#bb4052'"
    onMouseOut="this.style.color='#000'">Gallery</a></li>
-          <!-- <li class="nav-item"><a href="#" class="nav-link" style="color:#000;"  onMouseOver="this.style.color='#bb4052'"
-   onMouseOut="this.style.color='#000'">About us</a></li> -->
           <li class="nav-item"><a href="contact.html" class="nav-link" style="color:#000;"  onMouseOver="this.style.color='#bb4052'"
    onMouseOut="this.style.color='#000'">Contact</a></li>
         </ul>
@@ -95,38 +100,25 @@ nav {
 </div>
 <!--------end nav img------->
 <!----------content SAH------------->
-    <!----------horizontal marquee-------->
-    <!-- <div class="marqueBox blink-bg">
-        <marquee width="100%" behavior="scroll" direction="right" scrollamount="10" onmouseover="this.stop();"
-            onmouseout="this.start();" style="color: white;">
-            <a href="#">Book your guesthouse now</a>
-        </marquee>
-    </div> -->
-
-
-
 
 <!-- tariff section  -->
-<div class="tariff-section">
+<div class="tariff-section" >
     <div class="container">
       <br>
       <h2 class="display-4 mb-3">Visitor’s Category </h2>
       <hr class="style-one">
-      <table class="table">
+      <table class="table" style="overflow-x: scroll;">
         <thead style="background-color: #bb4052;">
           <tr>
             <th scope="col">
-              <ul>Category
+              <ul class="th">Category</ul>
             </th>
-            </ul>
             <th scope="col">
-              <ul>Executive Development Centre (EDC)/Senior Academic Hostle (SAH)
+              <ul class="th">Executive Development Centre (EDC)/Senior Academic Hostle (SAH)</ul>
             </th>
-            </ul>
             <th scope="col">
-              <ul>Revised Tariff*
+              <ul class="th">Revised Tariff*</ul>
             </th>
-            </ul>
           </tr>
         </thead>
         <tbody>
