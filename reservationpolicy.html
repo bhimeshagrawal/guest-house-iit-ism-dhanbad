@@ -18,25 +18,21 @@
   <link rel="stylesheet" href="css/flaticon.css">
   <link rel="stylesheet" href="css/icomoon.css">
   <link rel="stylesheet" href="css/fancybox.min.css">
+
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/people.css">
 
-  <!-------------------------css bootstrap cdn------------------------>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-  <!------------------jquery/js bootstrap cdn---------------------->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 
   <style>
+    .container-sec {
+      padding: 13% 9% 2%;
+    }
+
     .img-fluid {
       box-shadow: 10px -20px #bb4052;
     }
@@ -67,65 +63,64 @@
     }
 
     .nav-item {
-            padding-left: 10px;
-            padding-right: 10px;
-        }
+      padding-left: 10px;
+      padding-right: 10px;
+    }
 
-        .navbar-toggler:focus {
-            text-decoration: none;
-            outline: 0;
-            box-shadow: 0 0 0 0rem;
-        }
+    .navbar-toggler:focus {
+      text-decoration: none;
+      outline: 0;
+      box-shadow: 0 0 0 0rem;
+    }
 
-        .nav-link {
-            font-size: 18px;
-        }
+    .nav-link {
+      font-size: 18px;
+    }
 
-        .navbar-brand {
-            font-weight: 400;
-        }
+    .navbar-brand {
+      font-weight: 400;
+    }
 
-        .navbar-light .navbar-nav .nav-link,
-        .navbar-light .navbar-brand {
-            color: black;
-        }
+    .navbar-light .navbar-nav .nav-link,
+    .navbar-light .navbar-brand {
+      color: black;
+    }
 
-        .navbar-light .navbar-nav .nav-link:hover {
-            color: #bb4052;
-        }
+    .navbar-light .navbar-nav .nav-link:hover {
+      color: #bb4052;
+    }
 
-        .navbar-light .navbar-brand:hover {
-            color: #bb4052;
-        }
+    .navbar-light .navbar-brand:hover {
+      color: #bb4052;
+    }
 
-        .ui-button {
-            background: none;
-            border: none;
-            font-size: 20px;
-        }
+    .ui-button {
+      background: none;
+      border: none;
+      font-size: 20px;
+    }
 
-        @media (max-width: 568.98px) {
-            .navbar-dark .navbar-brand {
-                color: #000;
-                /* margin-right: 30%; */
-            }
-        }
+    @media (max-width: 568.98px) {
+      .navbar-dark .navbar-brand {
+        color: #000;
+        /* margin-right: 30%; */
+      }
+    }
 
-        @media (max-width: 767.98px) {
-            .navbar-dark .navbar-brand {
-                color: #000;
-                /* margin-right: 30%; */
-            }
-        }
+    @media (max-width: 767.98px) {
+      .navbar-dark .navbar-brand {
+        color: #000;
+        /* margin-right: 30%; */
+      }
+    }
 
-        @media only screen and (max-width: 500px) and (min-width: 200px) {
-            .navbar-dark .navbar-brand {
-                color: #000;
-                margin-right: 0;
-            }
-        }
-
-        .nav-link {
+    @media only screen and (max-width: 500px) and (min-width: 200px) {
+      .navbar-dark .navbar-brand {
+        color: #000;
+        margin-right: 0;
+      }
+    }
+    .nav-link {
             color: black;
         }
 
@@ -135,6 +130,12 @@
 
         .navbar-dark .navbar-brand {
             color: black;
+        }
+        .nav-link.foot{
+            color:#fff;
+        }
+        .nav-link.foot:hover{
+            color:#bb4052;
         }
   </style>
 </head>
@@ -150,27 +151,27 @@
     </div>
   </div>
   <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light bg-nav-col sticky" id="ftco-navbar"
-        style="background-color: #bb4052;">
-        <div class="container">
-            <img src="images/iitismlogo.png" class="logoimg">
-            <a class="navbar-brand" href="index.html" style="width: fit-content;">IIT (ISM) DHANBAD</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
-                aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation" style="color:#000;">
-                <span class="oi oi-menu"></span>
-            </button>
+    style="background-color: #bb4052;">
+    <div class="container">
+      <img src="images/iitismlogo.png" class="logoimg">
+      <a class="navbar-brand" href="index.html" style="width: fit-content;">IIT (ISM) DHANBAD</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
+        aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation" style="color:#000;">
+        <span class="oi oi-menu"></span>
+      </button>
 
-            <div class="collapse navbar-collapse" id="ftco-nav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-                    <li class="nav-item"><a href="guesthouses.html" class="nav-link" style="">Guesthouses</a></li>
-                    <li class="nav-item"><a href="gallery.html" class="nav-link" style="">Gallery</a>
-                    </li>
-                    <li class="nav-item"><a href="contact.html" class="nav-link" style="">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+      <div class="collapse navbar-collapse" id="ftco-nav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="guesthouses.html" class="nav-link">Guesthouses</a></li>
+          <li class="nav-item"><a href="gallery.html" class="nav-link">Gallery</a>
+          </li>
+          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
   <!-- END nav -->
   <!------nav img----->
   <div class="block-31" style="position: relative;">
@@ -179,7 +180,7 @@
   </div>
   <!--------end nav img------->
   <!----------content SAH------------->
-  <div class="container">
+  <div class="container-sec">
     <br>
     <h2 class="display-4 mb-3">Reservation</h2>
     <hr class="style-one">
@@ -282,56 +283,39 @@
     </ol>
     </p>
   </div>
- 
-
   <!---------end content SAH-------->
 
-  <!-------footer-->
-  <footer class="text-center text-lg-start bg text-muted">
-    <!-- Section: Links  -->
-    <section>
-      <div class="container text-md-start mt-5">
+  <div class="footer-section" style="background-color: #641b26;">
+    <div class="container text-md-start pt-5">
         <!-- Grid row -->
         <div class="row">
-          <!-- Grid column -->
+            <!-- Grid column -->
+            <div class="mx-auto col-sm-4">
+                <!-- links -->
+                <p class="nav-link text-left" style="color:#fff;"><u>LINKS</u></p>
+                <a href="index.html" class="nav-link foot text-left">Home</a>
+                <a href="gallery.html" class="nav-link foot text-left">Gallery</a>
+                <a href="guesthouses.html" class="nav-link foot text-left">GuestHouse</a>
+                <a href="location.html" class="nav-link foot text-left">Location</a>
+                <a href="contact.html" class="nav-link foot text-left">Contact</a>
+            </div>
+            <!-- end links -->
+            <!-- contact -->
+            <div class="col-xl-3 mx-auto col-sm-4">
+                <!-- Links -->
+                <p class="nav-link text-left" style="color:#fff;"><u>CONTACT US</u></p>
+                <p class="nav-link text-left" style="color:#fff;">Main Campus IIT (ISM), Dhanbad Jharkhand, INDIA, 826004</p>
+                <p class="nav-link text-left" style="color:#fff;">
+                    <i class="fa fa-envelope me-3" style="color:#fff;"></i>info@example.com</p>
+                <p class="nav-link text-left" style="color:#fff;"><i class="fa fa-phone me-3"></i> + 01 234 567 88</p>
+                <p class="nav-link text-left" style="color:#fff;"><i class="fa fa-print me-3"></i> + 01 234 567 89</p>
+            </div>
+            <!--end contact -->
+        </div>
+    </div>
+</div>
+<!--end Footer -->
 
-          <div class="mx-auto col-sm-4">
-            <!-- links -->
-            <p class="nav-link text-left"><u>LINKS</u></p>
-            <a href="index.html" class="nav-link text-left">Home</a>
-            <a href="gallery.html" class="nav-link text-left">Gallery</a>
-            <a href="guesthouses.html" class="nav-link text-left">GuestHouse</a>
-            <a href="location.html" class="nav-link text-left">Location</a>
-            <a href="contact.html" class="nav-link text-left">Contact</a>
-          </div>
-          <!-- end links -->
-
-          <!-- links
-          <div class="mx-auto col-sm-4">
-           <p class="nav-link text-left"><u>LINKS</u></p>
-            <a href="index.html" class="nav-link text-left">Home</a>
-            <a href="services.html" class="nav-link text-left">services</a>
-            <a href="gallery.html" class="nav-link text-left">Gallery</a>
-            <a href="blog.html" class="nav-link text-left">Blog</a>
-            <a href="about.html" class="nav-link text-left">About</a>
-            <a href="contact.html" class="nav-link text-left">Contact</a>
-          </div> -->
-          <!-- end links-->
-
-          <!-- contact -->
-          <div class="col-xl-3 mx-auto col-sm-4">
-            <!-- Links -->
-            <p class="nav-link text-left"><u>CONTACT US</u></p>
-            <p class="nav-link text-left">Main Campus IIT (ISM), Dhanbad Jharkhand, INDIA, 826004</p>
-            <p class="nav-link text-left">
-              <i class="fa fa-envelope me-3"></i>
-              info@example.com
-            </p>
-            <p class="nav-link text-left"><i class="fa fa-phone me-3"></i> + 01 234 567 88</p>
-            <p class="nav-link text-left"><i class="fa fa-print me-3"></i> + 01 234 567 89</p>
-          </div>
-
-          <!--end contact -->
         </div>
       </div>
     </section>
