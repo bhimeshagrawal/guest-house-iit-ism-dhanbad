@@ -57,7 +57,76 @@ nav {
     max-width: 100px;
   }
 }
+.nav-item {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
 
+        .navbar-toggler:focus {
+            text-decoration: none;
+            outline: 0;
+            box-shadow: 0 0 0 0rem;
+        }
+
+        .nav-link {
+            font-size: 18px;
+        }
+
+        .navbar-brand {
+            font-weight: 400;
+        }
+
+        .navbar-light .navbar-nav .nav-link,
+        .navbar-light .navbar-brand {
+            color: black;
+        }
+
+        .navbar-light .navbar-nav .nav-link:hover {
+            color: #bb4052;
+        }
+
+        .navbar-light .navbar-brand:hover {
+            color: #bb4052;
+        }
+
+        .ui-button {
+            background: none;
+            border: none;
+            font-size: 20px;
+        }
+
+        @media (max-width: 568.98px) {
+            .navbar-dark .navbar-brand {
+                color: #000;
+                /* margin-right: 30%; */
+            }
+        }
+
+        @media (max-width: 767.98px) {
+            .navbar-dark .navbar-brand {
+                color: #000;
+                /* margin-right: 30%; */
+            }
+        }
+
+        @media only screen and (max-width: 500px) and (min-width: 200px) {
+            .navbar-dark .navbar-brand {
+                color: #000;
+                margin-right: 0;
+            }
+        }
+
+        .nav-link {
+            color: black;
+        }
+
+        .navbar-dark .navbar-nav .nav-link {
+            color: #000;
+        }
+
+        .navbar-dark .navbar-brand {
+            color: black;
+        }
   </style>
 </head>
 <body>
@@ -70,32 +139,28 @@ nav {
         <a href="reservationpolicy.html" class="nav-item-link">Reservation Policy</a>
     </div>
 </div>
-  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light bg-nav-col sticky" id="ftco-navbar" style="background-color: #bb4052;">
-    <div class="container">
-      <img src="images/iitismlogo.png" class="logoimg">
-      <a class="navbar-brand" href="index.html" style="color:#000;"  onMouseOver="this.style.color='#bb4052'"
-   onMouseOut="this.style.color='#000'">IIT (ISM), DHANBAD</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
+<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light bg-nav-col sticky" id="ftco-navbar"
+style="background-color: #bb4052;">
+<div class="container">
+    <img src="images/iitismlogo.png" class="logoimg">
+    <a class="navbar-brand" href="index.html" style="width: fit-content;">IIT (ISM) DHANBAD</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
         aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation" style="color:#000;">
         <span class="oi oi-menu"></span>
-      </button>
+    </button>
 
-      <div class="collapse navbar-collapse" id="ftco-nav">
+    <div class="collapse navbar-collapse" id="ftco-nav">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item"><a href="index.html" class="nav-link" style="color:#000;"  onMouseOver="this.style.color='#bb4052'"
-   onMouseOut="this.style.color='#000'">Home</a></li>
-          <li class="nav-item"><a href="guesthouses.html" class="nav-link" style="color:#000;"  onMouseOver="this.style.color='#bb4052'"
-   onMouseOut="this.style.color='#000'">Guesthouses</a></li>
-          <li class="nav-item"><a href="gallery.html" class="nav-link" style="color:#000;"  onMouseOver="this.style.color='#bb4052'"
-   onMouseOut="this.style.color='#000'">Gallery</a></li>
-          <!-- <li class="nav-item"><a href="#" class="nav-link" style="color:#000;"  onMouseOver="this.style.color='#bb4052'"
-   onMouseOut="this.style.color='#000'">About us</a></li> -->
-          <li class="nav-item active"><a href="contact.html" class="nav-link" style="color:#000;"  onMouseOver="this.style.color='#bb4052'"
-   onMouseOut="this.style.color='#000'">Contact</a></li>
+            <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="guesthouses.html" class="nav-link" style="">Guesthouses</a></li>
+            <li class="nav-item"><a href="gallery.html" class="nav-link" style="">Gallery</a>
+            </li>
+            <li class="nav-item"><a href="contact.html" class="nav-link" style="">Contact</a>
+            </li>
         </ul>
-      </div>
     </div>
-  </nav>
+</div>
+</nav>
   <!-- END nav -->
 <!------nav img----->
 <div class="block-31" style="position: relative;">
