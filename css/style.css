@@ -124,7 +124,7 @@ h5,
 @media only screen and (max-width: 500px) and (min-width: 200px) {
   .navbar-dark .navbar-brand {
     color: #000;
-    margin-right: 0;
+    /* margin-right: 0; */
   }
 }
 
@@ -297,11 +297,7 @@ h5,
   margin-top: 1.8rem;
   margin-right: 13rem;
   padding-top: 1rem;
-  font-size: 14px;
-  font-family: "Overpass", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-    "Segoe UI Symbol";
-}
+ } 
 
 .bg-image,
 .ftco-cover {
