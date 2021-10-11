@@ -1,8 +1,9 @@
+*{
+  font-family: 'Nunito', sans-serif;
+}
 html,
 body {
-  font-family: "Overpass", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-    "Segoe UI Symbol";
+  font-family: 'Nunito', sans-serif;
   background: #fff;
   font-size: 16px;
   line-height: 1.8;
@@ -328,9 +329,7 @@ h5,
   line-height: 1.7;
   color: rgba(255, 255, 255, 0.7);
   font-weight: 300;
-  font-family: "Overpass", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-    "Segoe UI Symbol";
+  font-family: 'Nunito', sans-serif;
 }
 @media (max-width: 991.98px) {
   .ftco-cover .btn {
@@ -811,7 +810,7 @@ textarea.form-control {
 }
 
 .person-donate em {
-  font-family: serif;
+  font-family: 'Nunito', sans-serif;
 }
 
 .person-donate img {
@@ -909,9 +908,7 @@ textarea.form-control {
   margin-bottom: 40px;
   letter-spacing: 0.1em;
   color: #fff !important;
-  font-family: "Overpass", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-    "Segoe UI Symbol";
+  font-family: 'Nunito', sans-serif;
 }
 .footer .block-21 .heading a {
   color: #fff !important;
@@ -1687,7 +1684,7 @@ textarea.form-control {
   left: 0;
 }
 .block-8 .accordion-item .heading > a[aria-expanded="true"]:before {
-  font-family: "icomoon";
+  font-family: 'Nunito', sans-serif;
   position: absolute;
   content: "\e316";
   -webkit-transition: 0.3s all ease;
@@ -2120,9 +2117,7 @@ textarea.form-control {
 }
 .block-30 .author {
   margin-top: 30px;
-  font-family: "Overpass", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-    "Segoe UI Symbol";
+  font-family: 'Nunito', sans-serif;
   font-size: 16px;
   display: block;
 }
@@ -2732,7 +2727,7 @@ textarea.form-control {
   border-radius: 2em;
   box-sizing: border-box;
   text-decoration: none;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Nunito', sans-serif;
   font-weight: 300;
   color: #ffffff;
   text-shadow: 0 0.04em 0.04em rgba(255, 255, 255, 0.253);
@@ -2751,7 +2746,7 @@ textarea.form-control {
   border: 0.16em solid #bb4052;
   box-sizing: border-box;
   text-decoration: none;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Nunito', sans-serif;
   font-weight: 300;
   color: #bb4052;
   transition: all 0.2s;
@@ -2768,7 +2763,7 @@ textarea.form-control {
   border-radius: 2em;
   box-sizing: border-box;
   text-decoration: none;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Nunito', sans-serif;
   font-weight: 300;
   color: #ffffff;
   background-color: #bb4052;
@@ -3039,7 +3034,7 @@ hr h1 {
 }
 
 p {
-  font-family: helvetica, arial, sans serif;
+  font-family: 'Nunito', sans-serif;
 }
 
 .block-r1 {
@@ -3062,14 +3057,12 @@ label.logo {
   margin-left: 60px;
   padding: 15px 40px;
   font-weight: bolder;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: 'Nunito', sans-serif;
 }
 .secondary-nav .nav-item-link {
   color: white;
   font-size: 0.6em;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: 'Nunito', sans-serif;
   padding: 7px 13px;
   border-radius: 3px;
   text-transform: uppercase;
