@@ -199,7 +199,8 @@
 #peopleImg {
     border-radius: 50%;
     box-shadow: 0px 0px 5px rgb(235 14 14 / 30%);
-    width: 100%;
+    width: 130px;
+    height: 130px;
 }
 
 .people-item:hover{
