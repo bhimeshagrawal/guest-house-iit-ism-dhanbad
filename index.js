@@ -38,7 +38,7 @@ function show(data) {
 
     text += `<li>${link_first}<p>${element.news}</p>${link_second}</li>`;
   });
-  console.log(text);
+  
   latestNews.innerHTML = text;
 }
 
